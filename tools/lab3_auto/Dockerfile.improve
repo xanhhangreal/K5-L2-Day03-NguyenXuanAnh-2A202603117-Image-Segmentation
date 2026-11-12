@@ -1,0 +1,2 @@
+FROM cvat.lab3.auto:latest
+RUN pip3 install --timeout 60 --retries 3 --no-cache-dir scipy==1.15.3
